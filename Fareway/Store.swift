@@ -4,7 +4,7 @@ import Foundation
 final class FarewayStore: ObservableObject {
     @Published private(set) var funds: [TripFund] = []
 
-    static let freeFundLimit = 2
+    static let freeFundLimit = 3
 
     private let fileURL: URL
 
