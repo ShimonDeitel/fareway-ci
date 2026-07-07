@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0260FBAAE79BB8F343A86155 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE15CC76D25BE1ADC46A1A /* PaywallView.swift */; };
+		3725C227A521EE54C34547D7 /* FarewayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B8BE5D02ADE9E9431C0EDF /* FarewayUITests.swift */; };
+		45755CCBF1AF7DBD12E530E8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE35578FAAFDA02D9BAE40B5 /* Theme.swift */; };
+		57A11FBAF272F2FAAA9F697D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA301062CFEB8C65DC1F72 /* SettingsView.swift */; };
+		6014D97D533C4B263AB7E219 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA4A3E06E9B56A02E0C83D /* PurchaseManager.swift */; };
+		701DA2F5E7E61D041CADBC12 /* Fareway.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 5F99E0F8D413CD350420F81C /* Fareway.storekit */; };
+		9031DB5287B963A8411446E2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF92DADB3321DFA3D04EF2 /* Store.swift */; };
+		9097D01C36BF0E90A004C8BE /* ThermometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB1069BA2E6E9978A210136 /* ThermometerView.swift */; };
+		9558A0996734398AC798EA9D /* FarewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE083C77FC27B4E4A268A09 /* FarewayTests.swift */; };
+		96FFC27BE8F776F26F7AA543 /* FundListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A998DF4F060BD8CACEADC /* FundListView.swift */; };
+		AC718AB348773393C11D5E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FF8F133CC44CF53B114FA2 /* Assets.xcassets */; };
+		B9AAD90873F3E68AB593866E /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45CB6CCF04A846C7CCC7307 /* RootTabView.swift */; };
+		E74C7984C7D9F9BD678A08E9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D4F755B27FA7AAD166FF3 /* App.swift */; };
+		E9D6169D16349DE8A4CAF6F2 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680331B35E7DE8FAF0CECD2A /* Sheets.swift */; };
+		FFBCF9550CE4A2DE58DE5A73 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B39BDB2B0691759C81135 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E700EC52AFB873288A3033A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F44D3DABE1E8CE4A2B73E79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B41559D2962C400F89354F;
+			remoteInfo = Fareway;
+		};
+		A5B45C654A5FC0E6C6EBE4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F44D3DABE1E8CE4A2B73E79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B41559D2962C400F89354F;
+			remoteInfo = Fareway;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BB1069BA2E6E9978A210136 /* ThermometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermometerView.swift; sourceTree = "<group>"; };
+		4846C4CC623AE50A4F9B2797 /* FarewayTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FarewayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0BF2EF93487B803E54EB40 /* FarewayUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FarewayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE083C77FC27B4E4A268A09 /* FarewayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarewayTests.swift; sourceTree = "<group>"; };
+		58AE15CC76D25BE1ADC46A1A /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		5F99E0F8D413CD350420F81C /* Fareway.storekit */ = {isa = PBXFileReference; path = Fareway.storekit; sourceTree = "<group>"; };
+		647B39BDB2B0691759C81135 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		680331B35E7DE8FAF0CECD2A /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		79B8BE5D02ADE9E9431C0EDF /* FarewayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarewayUITests.swift; sourceTree = "<group>"; };
+		8C8D4F755B27FA7AAD166FF3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		8EBA4A3E06E9B56A02E0C83D /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		9FAA301062CFEB8C65DC1F72 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A80E96DBF9903107A4C75236 /* Fareway.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Fareway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E83FC4990377A36E3975D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDAF92DADB3321DFA3D04EF2 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		E45CB6CCF04A846C7CCC7307 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		EE35578FAAFDA02D9BAE40B5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F1FF8F133CC44CF53B114FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6A998DF4F060BD8CACEADC /* FundListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0AB1A7EC4978890E9D70AA80 /* Fareway */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D4F755B27FA7AAD166FF3 /* App.swift */,
+				F1FF8F133CC44CF53B114FA2 /* Assets.xcassets */,
+				FA6A998DF4F060BD8CACEADC /* FundListView.swift */,
+				BA8E83FC4990377A36E3975D /* Info.plist */,
+				647B39BDB2B0691759C81135 /* Models.swift */,
+				58AE15CC76D25BE1ADC46A1A /* PaywallView.swift */,
+				8EBA4A3E06E9B56A02E0C83D /* PurchaseManager.swift */,
+				E45CB6CCF04A846C7CCC7307 /* RootTabView.swift */,
+				9FAA301062CFEB8C65DC1F72 /* SettingsView.swift */,
+				680331B35E7DE8FAF0CECD2A /* Sheets.swift */,
+				DDAF92DADB3321DFA3D04EF2 /* Store.swift */,
+				EE35578FAAFDA02D9BAE40B5 /* Theme.swift */,
+				1BB1069BA2E6E9978A210136 /* ThermometerView.swift */,
+			);
+			path = Fareway;
+			sourceTree = "<group>";
+		};
+		0F9D128DC3031091F3704313 = {
+			isa = PBXGroup;
+			children = (
+				0AB1A7EC4978890E9D70AA80 /* Fareway */,
+				6E3C218D3765171C8C98AEF8 /* FarewayTests */,
+				36DC2D2826C310D7EE5FF3AC /* FarewayUITests */,
+				5F99E0F8D413CD350420F81C /* Fareway.storekit */,
+				CA99905DC1E6D55312C06783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36DC2D2826C310D7EE5FF3AC /* FarewayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79B8BE5D02ADE9E9431C0EDF /* FarewayUITests.swift */,
+			);
+			path = FarewayUITests;
+			sourceTree = "<group>";
+		};
+		6E3C218D3765171C8C98AEF8 /* FarewayTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EE083C77FC27B4E4A268A09 /* FarewayTests.swift */,
+			);
+			path = FarewayTests;
+			sourceTree = "<group>";
+		};
+		CA99905DC1E6D55312C06783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80E96DBF9903107A4C75236 /* Fareway.app */,
+				4846C4CC623AE50A4F9B2797 /* FarewayTests.xctest */,
+				4E0BF2EF93487B803E54EB40 /* FarewayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B41559D2962C400F89354F /* Fareway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EADB665EF468A2836975E2 /* Build configuration list for PBXNativeTarget "Fareway" */;
+			buildPhases = (
+				FD435D92B691170594EEC10C /* Sources */,
+				3A8C297A3D8F27C2CF5E0907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fareway;
+			packageProductDependencies = (
+			);
+			productName = Fareway;
+			productReference = A80E96DBF9903107A4C75236 /* Fareway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660AFB85BA424731A63D1D03 /* FarewayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE455AD2BB6BE970BC919623 /* Build configuration list for PBXNativeTarget "FarewayUITests" */;
+			buildPhases = (
+				7A8742A135F706CE54C7B0C9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000F714F0952FF84C38F62C3 /* PBXTargetDependency */,
+			);
+			name = FarewayUITests;
+			packageProductDependencies = (
+			);
+			productName = FarewayUITests;
+			productReference = 4E0BF2EF93487B803E54EB40 /* FarewayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E24B7C35A15A8B58BEE34543 /* FarewayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C15F8FDD54A329F2F42641 /* Build configuration list for PBXNativeTarget "FarewayTests" */;
+			buildPhases = (
+				40637111ED7CCE8F49655B74 /* Sources */,
+				D15ABB49BB814AC42C7691C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AFB250631C8A52C688010B /* PBXTargetDependency */,
+			);
+			name = FarewayTests;
+			packageProductDependencies = (
+			);
+			productName = FarewayTests;
+			productReference = 4846C4CC623AE50A4F9B2797 /* FarewayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F44D3DABE1E8CE4A2B73E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					10B41559D2962C400F89354F = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					660AFB85BA424731A63D1D03 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 10B41559D2962C400F89354F;
+					};
+					E24B7C35A15A8B58BEE34543 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F3E70D6D16D62470F7D4B71 /* Build configuration list for PBXProject "Fareway" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0F9D128DC3031091F3704313;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA99905DC1E6D55312C06783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B41559D2962C400F89354F /* Fareway */,
+				E24B7C35A15A8B58BEE34543 /* FarewayTests */,
+				660AFB85BA424731A63D1D03 /* FarewayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8C297A3D8F27C2CF5E0907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC718AB348773393C11D5E2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15ABB49BB814AC42C7691C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701DA2F5E7E61D041CADBC12 /* Fareway.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40637111ED7CCE8F49655B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9558A0996734398AC798EA9D /* FarewayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8742A135F706CE54C7B0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3725C227A521EE54C34547D7 /* FarewayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD435D92B691170594EEC10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74C7984C7D9F9BD678A08E9 /* App.swift in Sources */,
+				96FFC27BE8F776F26F7AA543 /* FundListView.swift in Sources */,
+				FFBCF9550CE4A2DE58DE5A73 /* Models.swift in Sources */,
+				0260FBAAE79BB8F343A86155 /* PaywallView.swift in Sources */,
+				6014D97D533C4B263AB7E219 /* PurchaseManager.swift in Sources */,
+				B9AAD90873F3E68AB593866E /* RootTabView.swift in Sources */,
+				57A11FBAF272F2FAAA9F697D /* SettingsView.swift in Sources */,
+				E9D6169D16349DE8A4CAF6F2 /* Sheets.swift in Sources */,
+				9031DB5287B963A8411446E2 /* Store.swift in Sources */,
+				45755CCBF1AF7DBD12E530E8 /* Theme.swift in Sources */,
+				9097D01C36BF0E90A004C8BE /* ThermometerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000F714F0952FF84C38F62C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10B41559D2962C400F89354F /* Fareway */;
+			targetProxy = 6E700EC52AFB873288A3033A /* PBXContainerItemProxy */;
+		};
+		14AFB250631C8A52C688010B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10B41559D2962C400F89354F /* Fareway */;
+			targetProxy = A5B45C654A5FC0E6C6EBE4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11520D448C9DFCCEF29440B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Fareway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.fareway;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C22535D6E83CE05D15C13B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.fareway.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fareway.app/Fareway";
+			};
+			name = Release;
+		};
+		7479F5456E5349CF69C4BDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.fareway.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fareway.app/Fareway";
+			};
+			name = Debug;
+		};
+		83D7895C08F9E60177E8A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Fareway/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.fareway;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		96A718AC2E307C97A5F2239D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.fareway.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Fareway;
+			};
+			name = Release;
+		};
+		BB0E33898FA4C143F4880ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E65EE15D9ACFBE842661C8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.fareway.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Fareway;
+			};
+			name = Debug;
+		};
+		FEAAA76AD25D9BA773D8BE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24EADB665EF468A2836975E2 /* Build configuration list for PBXNativeTarget "Fareway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11520D448C9DFCCEF29440B8 /* Debug */,
+				83D7895C08F9E60177E8A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F3E70D6D16D62470F7D4B71 /* Build configuration list for PBXProject "Fareway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAAA76AD25D9BA773D8BE8F /* Debug */,
+				BB0E33898FA4C143F4880ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE455AD2BB6BE970BC919623 /* Build configuration list for PBXNativeTarget "FarewayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65EE15D9ACFBE842661C8DF /* Debug */,
+				96A718AC2E307C97A5F2239D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8C15F8FDD54A329F2F42641 /* Build configuration list for PBXNativeTarget "FarewayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7479F5456E5349CF69C4BDEB /* Debug */,
+				4C22535D6E83CE05D15C13B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F44D3DABE1E8CE4A2B73E79 /* Project object */;
+}
