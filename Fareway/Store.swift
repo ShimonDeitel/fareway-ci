@@ -25,10 +25,7 @@ final class FarewayStore: ObservableObject {
         funds = [
             TripFund(name: "Lisbon Getaway", targetAmount: 2000, theme: .city,
                      createdDate: Calendar.current.date(byAdding: .month, value: -2, to: Date())!,
-                     deposits: [Deposit(amount: 350, date: Calendar.current.date(byAdding: .month, value: -2, to: Date())!, note: "First deposit")]),
-            TripFund(name: "Maui Beach Week", targetAmount: 3500, theme: .beach,
-                     createdDate: Calendar.current.date(byAdding: .month, value: -1, to: Date())!,
-                     deposits: [Deposit(amount: 600, date: Calendar.current.date(byAdding: .month, value: -1, to: Date())!, note: "")])
+                     deposits: [Deposit(amount: 350, date: Calendar.current.date(byAdding: .month, value: -2, to: Date())!, note: "First deposit")])
         ]
         save()
     }
