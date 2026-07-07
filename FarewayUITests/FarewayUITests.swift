@@ -98,8 +98,8 @@ final class FarewayUITests: XCTestCase {
         amountField.typeText("150")
         app.buttons["depositSaveButton"].tap()
 
+        XCTAssertTrue(app.otherElements["goalCelebrationConfetti"].waitForExistence(timeout: 3), "Confetti celebration did not appear")
         XCTAssertTrue(app.staticTexts["Goal reached!"].waitForExistence(timeout: 5), "Goal-reached label did not appear")
-        XCTAssertTrue(app.otherElements["goalCelebrationConfetti"].waitForExistence(timeout: 5), "Confetti celebration did not appear")
     }
 
     func testKeyboardDismissesOnTapOutsideInAddSheet() throws {
@@ -117,7 +117,7 @@ final class FarewayUITests: XCTestCase {
         // Tap a real Form section header label (not nav bar chrome) to
         // trigger dismissKeyboardOnTap's gesture, which is attached to the
         // Form content, not the navigation bar.
-        let sectionHeader = app.staticTexts["Theme"]
+        let sectionHeader = app.staticTexts["Theme"].firstMatch
         XCTAssertTrue(sectionHeader.waitForExistence(timeout: 5))
         sectionHeader.tap()
 
